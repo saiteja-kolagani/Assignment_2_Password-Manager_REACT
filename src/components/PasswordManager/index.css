@@ -1,0 +1,152 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-logo {
+  width: 200px;
+}
+.logo-container {
+  width: 800px;
+  margin-top: 15px;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5763a5;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 20px;
+  width: 800px;
+}
+.password-manager-image {
+  width: 300px;
+  margin-left: 15px;
+}
+.form-container {
+  background-color: #454f84;
+  padding: 30px;
+  border-radius: 20px;
+}
+.form-heading {
+  font-size: 14px;
+  color: #f8fafc;
+}
+.form-input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form-input-image {
+  width: 20px;
+  position: absolute;
+  margin-left: 4px;
+  padding-right: 4px;
+  border-right: 2px solid #94a3b8;
+}
+.form-input-field {
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+.form-btn {
+  width: 60px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #f8fafc;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.form-btn-container {
+  text-align: end;
+}
+.pass-hist-bg-container {
+  background-color: #5763a5;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 20px;
+  width: 800px;
+}
+.pass-hist-nav-heading {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 4px;
+}
+.pass-hist-nav-span {
+  border: 1px solid #f8fafc;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.pass-hist-nav-input-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.pass-hist-nav-section {
+  display: flex;
+  border-bottom: 2px solid #c3caea;
+}
+.pass-hist-input-image {
+  width: 20px;
+  position: absolute;
+  border-right: 1px solid;
+}
+.pass-hist-nav-input-field {
+  width: 160px;
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: none;
+  outline: none;
+}
+.checkbox-label {
+  font-size: 12px;
+  color: #ffffff;
+}
+.checkbox-input-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-field-checkbox {
+  border: 2px solid;
+  height: 15px;
+  width: 30px;
+  margin-right: 0px;
+}
+.pass-hist-image {
+  width: 400px;
+  margin-inline: auto;
+}
+.pass-hist-unordered-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pass-hist-image-container {
+  text-align: center;
+  align-self: stretch;
+  margin-inline: auto;
+}
+.no-password-text {
+  color: #ffffff;
+  font-size: 16px;
+}
